@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="8dp">
+
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:cardElevation="12dp"
+        app:cardCornerRadius="12dp"
+        android:id="@+id/cv_klik_detail"
+        tools:ignore="MissingConstraints">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="150dp"
+                android:layout_height="280dp"
+                android:background="@drawable/background5"
+                android:id="@+id/iv_imgtv"
+                android:contentDescription="@string/description"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/background5"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/title"
+                    android:textStyle="bold"
+                    android:textSize="18sp"
+                    android:textAllCaps="true"
+                    android:textColor="@android:color/black"
+                    android:id="@+id/tv_titletv"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/date"
+                    android:maxLength="50"
+                    android:layout_marginTop="8dp"
+                    android:id="@+id/tv_datetv"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/vote"
+                    android:maxLength="50"
+                    android:layout_marginTop="8dp"
+                    android:id="@+id/tv_votetv"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/original_language"
+                    android:maxLength="50"
+                    android:layout_marginTop="8dp"
+                    android:id="@+id/tv_originallanguagetv"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/genre"
+                    android:maxLength="50"
+                    android:layout_marginTop="8dp"
+                    android:id="@+id/tv_genretv"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/popularity"
+                    android:maxLength="50"
+                    android:layout_marginTop="8dp"
+                    android:id="@+id/tv_popularitytv"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/overview"
+                    android:maxLength="50"
+                    android:layout_marginTop="8dp"
+                    android:id="@+id/tv_overviewtv"/>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+                    <Button
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/background3"
+                        android:layout_weight="1"
+                        android:layout_margin="@dimen/margin"
+                        android:text="@string/detail"
+                        android:id="@+id/btn_detailtv"
+                        android:textColor="@color/blue"
+                        android:contentDescription="@string/description"
+                        tools:ignore="all" />
+                    <Button
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="@dimen/margin"
+                        android:background="@drawable/background3"
+                        android:layout_weight="1"
+                        android:id="@+id/btn_sharetv"
+                        android:text="@string/share"
+                        android:textColor="@color/blue"
+                        tools:ignore="all" />
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+
+    </androidx.cardview.widget.CardView>
+</androidx.constraintlayout.widget.ConstraintLayout>

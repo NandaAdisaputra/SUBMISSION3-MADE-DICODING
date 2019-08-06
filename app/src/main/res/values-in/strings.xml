@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">SUBMISSION3DICODINGING dibuat</string>
+    <string name="by_nanda_adisaputra">"oleh_nanda_adisaputra  "</string>
+    <string name="change_language_settings">ubah pengaturan bahasa</string>
+    <string name="date">tanggal</string>
+    <string name="description">deskripsi</string>
+    <string name="detail">detail</string>
+    <string name="genre">aliran</string>
+    <string name="home">Rumah</string>
+    <string name="loading">Pemuatan</string>
+    <string name="movie">Film</string>
+    <string name="moviedetail">Detail Film</string>
+    <string name="original_language">bahasa asli</string>
+    <string name="overview">"ikhtisar  "</string>
+    <string name="popularity">kepopuleran</string>
+    <string name="search">pencarian</string>
+    <string name="share">Bagikan</string>
+    <string name="title">judul</string>
+    <string name="tv">Televisi</string>
+    <string name="vote">Memilih</string>
+    <string name="logout">Keluar</string>
+</resources>

@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">SUBMISSION3DICODINGMADE</string>
+    <string name="overview">Ikhtisar</string>
+    <string name="moviedetail">Movie Detail </string>
+    <string name="loading"> Loading </string>
+    <string name="by_nanda_adisaputra">by_nanda_adisaputra</string>
+    <string name="search">search</string>
+    <string name="title">title</string>
+    <string name="date">date</string>
+    <string name="vote">Vote</string>
+    <string name="original_language">original language</string>
+    <string name="genre">genre</string>
+    <string name="popularity">popularity</string>
+    <string name="share">share</string>
+    <string name="description">description</string>
+    <string name="home">Home</string>
+    <string name="movie">Movie</string>
+    <string name="tv">Tv</string>
+    <string name="detail">detail</string>
+    <string name="change_language_settings">change_language_settings</string>
+    <string name="logout">Logout</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>
